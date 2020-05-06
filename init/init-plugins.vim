@@ -311,10 +311,10 @@ if index(g:bundle_group, 'nerdtree') >= 0
 	let g:NERDTreeMinimalUI = 1
 	let g:NERDTreeDirArrows = 1
 	let g:NERDTreeHijackNetrw = 0
-	noremap <space>nn :NERDTree<cr>
-	noremap <space>no :NERDTreeFocus<cr>
-	noremap <space>nm :NERDTreeMirror<cr>
-	noremap <space>nt :NERDTreeToggle<cr>
+" 	noremap <space>nn :NERDTree<cr>
+" 	noremap <space>no :NERDTreeFocus<cr>
+" 	noremap <space>nm :NERDTreeMirror<cr>
+	noremap <leader>d :NERDTreeToggle<cr>
 endif
 
 
@@ -517,6 +517,7 @@ if index(g:bundle_group, 'leaderf') >= 0
 	endif
 endif
 
+Plug 'Valloric/YouCompleteMe'
 
 "----------------------------------------------------------------------
 " 结束插件安装
