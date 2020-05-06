@@ -15,6 +15,9 @@
 "======================================================================
 " vim: set ts=4 sw=4 tw=78 noet :
 
+noremap <leader>q :q<CR>
+noremap <leader>w :w<CR>
+noremap <leader>x :x<CR>
 
 "----------------------------------------------------------------------
 " INSERT 模式下使用 EMACS 键位
@@ -24,6 +27,9 @@ inoremap <c-e> <end>
 inoremap <c-d> <del>
 inoremap <c-_> <c-k>
 
+nnoremap <c-a> <home>
+nnoremap <c-e> <end>
+nnoremap <c-d> <del>
 
 "----------------------------------------------------------------------
 " 设置 CTRL+HJKL 移动光标（INSERT 模式偶尔需要移动的方便些）
